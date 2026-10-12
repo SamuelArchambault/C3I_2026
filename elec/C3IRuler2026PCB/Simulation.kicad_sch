@@ -161,7 +161,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Small"
+		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -174,207 +174,28 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0.762 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "L_Small"
-				(at 0.762 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_Small_0_1"
-				(arc
-					(start 0 2.032)
-					(mid 0.5058 1.524)
-					(end 0 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 -0.508)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -1.524)
-					(end 0 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.508)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.508)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -395,7 +216,7 @@
 					)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -406,7 +227,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -428,12 +249,12 @@
 					)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_Small_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -441,10 +262,10 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.762)
 					(name ""
 						(effects
 							(font
@@ -461,8 +282,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name ""
 						(effects
 							(font
@@ -596,7 +417,235 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:VPULSE"
+		(symbol "Simulation_SPICE:OPAMP"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "${SIM.PARAMS}"
+				(at 3.81 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Operational amplifier, single"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Name" "kicad_builtin_opamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OPAMP_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "OPAMP_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:VDC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -619,7 +668,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "VPULSE"
+			(property "Value" "1"
 				(at 2.54 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -652,7 +701,7 @@
 					)
 				)
 			)
-			(property "Description" "Voltage source, pulse"
+			(property "Description" "Voltage source, DC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -674,7 +723,7 @@
 					)
 				)
 			)
-			(property "Sim.Type" "PULSE"
+			(property "Sim.Type" "DC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -697,17 +746,6 @@
 					(justify left)
 				)
 			)
-			(property "Sim.Params" "y1=0 y2=1 td=2n tr=2n tf=2n tw=50n per=100n"
-				(at 2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
 			(property "ki_keywords" "simulation"
 				(at 0 0 0)
 				(show_name no)
@@ -719,11 +757,46 @@
 					)
 				)
 			)
-			(symbol "VPULSE_0_0"
+			(symbol "VDC_0_0"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy -1.397 -0.762) (xy -1.143 0.762) (xy -0.127 0.762) (xy 0.127 -0.762) (xy 1.143 -0.762)
-						(xy 1.397 0.762) (xy 2.032 0.762)
+						(xy -1.27 0.254) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.254) (xy -1.27 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.254) (xy -0.254 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.254) (xy 0.762 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -742,7 +815,7 @@
 					)
 				)
 			)
-			(symbol "VPULSE_0_1"
+			(symbol "VDC_0_1"
 				(circle
 					(center 0 0)
 					(radius 2.54)
@@ -755,7 +828,7 @@
 					)
 				)
 			)
-			(symbol "VPULSE_1_1"
+			(symbol "VDC_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -797,146 +870,186 @@
 		)
 	)
 	(junction
-		(at 87.63 52.07)
+		(at 134.62 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "269200ed-734a-41d4-9257-cce8e80295ef")
+		(uuid "154b3b51-9ad5-463b-8337-e88d01e7446b")
 	)
 	(junction
-		(at 73.66 66.04)
+		(at 99.06 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c9de435-6e8c-406c-bbfd-9159d482acc7")
+		(uuid "1aaead48-dba9-44a6-9de1-ec122e223e56")
 	)
 	(junction
-		(at 87.63 66.04)
+		(at 110.49 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f3804d4-1d5c-4a2e-b1ae-3070bd0fb5c9")
+		(uuid "8dc7f3af-a791-429d-86ea-87370f03f976")
 	)
 	(wire
 		(pts
-			(xy 62.23 52.07) (xy 73.66 52.07)
+			(xy 134.62 44.45) (xy 134.62 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d0299a9-1777-4b9a-894a-d4e351f83077")
+		(uuid "146572c5-d8dc-4fd8-8339-d231aaad76e0")
 	)
 	(wire
 		(pts
-			(xy 73.66 66.04) (xy 62.23 66.04)
+			(xy 111.76 44.45) (xy 134.62 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bb9517e-832d-4bf5-8391-2cb2f74d1726")
+		(uuid "389d22ae-bd6d-4982-9e84-9580a7ec3a3f")
 	)
 	(wire
 		(pts
-			(xy 87.63 52.07) (xy 87.63 55.88)
+			(xy 110.49 59.69) (xy 113.03 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "616a8e12-8432-49ab-9b25-f9a222cab6cb")
+		(uuid "41135547-ed13-4907-a4d3-4e44b3bfc341")
 	)
 	(wire
 		(pts
-			(xy 99.06 52.07) (xy 99.06 55.88)
+			(xy 116.84 72.39) (xy 110.49 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6df8fc0e-564b-4b65-9b23-6b0fdafc6a99")
+		(uuid "48187287-3fa2-4924-99c6-f3a3965a17f1")
 	)
 	(wire
 		(pts
-			(xy 73.66 66.04) (xy 73.66 69.85)
+			(xy 106.68 44.45) (xy 99.06 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e348763-495b-4cc0-82e0-7209e65e9633")
+		(uuid "52157e47-f36c-43f7-85a9-d6a31078efe6")
 	)
 	(wire
 		(pts
-			(xy 87.63 52.07) (xy 99.06 52.07)
+			(xy 110.49 72.39) (xy 110.49 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92c3751c-d4a0-4493-8366-ddc6cca26424")
+		(uuid "5d43cc3d-d023-486c-a855-5a590897ae1f")
 	)
 	(wire
 		(pts
-			(xy 87.63 66.04) (xy 73.66 66.04)
+			(xy 128.27 57.15) (xy 134.62 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a571907d-d513-4689-b6ba-dcacdd6a4f82")
+		(uuid "7ca45b84-2b10-473e-ad81-a851425e0811")
 	)
 	(wire
 		(pts
-			(xy 99.06 60.96) (xy 99.06 66.04)
+			(xy 134.62 72.39) (xy 121.92 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc20f3c1-994e-45f6-82fc-a889ce38fc6f")
+		(uuid "8e7991e3-9328-4b39-a145-9075d04ee4fa")
 	)
 	(wire
 		(pts
-			(xy 62.23 62.23) (xy 62.23 66.04)
+			(xy 110.49 72.39) (xy 110.49 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c653ad2a-ca34-41c6-ba17-79de6be4ea80")
+		(uuid "ab645a03-c290-4cc8-9071-c34b7492114f")
 	)
 	(wire
 		(pts
-			(xy 81.28 52.07) (xy 87.63 52.07)
+			(xy 113.03 54.61) (xy 99.06 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7da20d4-cd08-405f-bd8f-0b1e2068d5bd")
+		(uuid "cdb4ef0f-fc86-4542-bc65-5f70aece26ed")
 	)
 	(wire
 		(pts
-			(xy 87.63 66.04) (xy 87.63 60.96)
+			(xy 99.06 54.61) (xy 99.06 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca98f3c8-8fe9-4b3c-8c1c-5204d1b88e20")
+		(uuid "ce986a9e-0db3-4069-85dd-331d61ffca25")
 	)
 	(wire
 		(pts
-			(xy 99.06 66.04) (xy 87.63 66.04)
+			(xy 99.06 44.45) (xy 99.06 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dac4b969-e0b8-46ff-8919-5a4d5bd1c5df")
+		(uuid "d5978780-dd3e-45dd-b12d-395ed76c69c9")
+	)
+	(wire
+		(pts
+			(xy 134.62 57.15) (xy 134.62 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c329c5-92dc-46b5-89e5-b8f2a4bb3fc4")
+	)
+	(label "5V"
+		(at 80.01 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a2d00b8-8b2b-442b-9d6a-b1e4bf687c2e")
+	)
+	(label "Vout"
+		(at 134.62 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e5b7866-7c75-42eb-a389-f333cff64ec9")
+	)
+	(label "5V"
+		(at 118.11 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e112863-ecd0-46e6-a1f3-30213cb957e1")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 77.47 52.07 90)
+		(lib_id "Simulation_SPICE:0")
+		(at 110.49 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -944,10 +1057,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fc21a53-dce2-4e03-80cb-c3e405e0bd2b")
-		(property "Reference" "R1"
-			(at 77.47 45.72 90)
+		(uuid "3049d183-d95c-4e24-99cd-6f1273304391")
+		(property "Reference" "#GND02"
+			(at 110.49 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -956,8 +1069,8 @@
 				)
 			)
 		)
-		(property "Value" "10"
-			(at 77.47 48.26 90)
+		(property "Value" "0"
+			(at 107.442 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -967,7 +1080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 53.848 90)
+			(at 110.49 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -977,8 +1090,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 77.47 52.07 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 110.49 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -988,8 +1101,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 77.47 52.07 0)
+		(property "Description" "0V reference potential for simulation"
+			(at 110.49 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1000,142 +1113,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3095e39f-d191-4029-978c-78525da7a5f8")
-		)
-		(pin "2"
-			(uuid "b54c5f79-4b3d-49a5-b3d5-44771dcbb1ac")
+			(uuid "84df56a7-25c6-4341-8309-f513c8493589")
 		)
 		(instances
 			(project "C3IRuler2026PCB"
 				(path "/68c19e60-1b43-4cb0-aa9b-a3f022006b83/3e4c3afc-d3f5-4362-bada-3280071de354"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:VPULSE")
-		(at 62.23 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "438e5367-8415-495a-9c62-bd15e743a609")
-		(property "Reference" "V1"
-			(at 66.04 54.4801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VPULSE"
-			(at 66.04 57.0201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 62.23 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Voltage source, pulse"
-			(at 62.23 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 62.23 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "PULSE"
-			(at 62.23 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 62.23 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Params" "y1=0 y2=3.3 td=2n tr=2n tf=2n tw=0.1m per=0.2m"
-			(at 33.528 61.468 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "26cc6611-cb17-479d-bc40-9ec09383d55b")
-		)
-		(pin "2"
-			(uuid "e79048ae-f063-41a9-916f-203650dd4d1a")
-		)
-		(instances
-			(project "C3IRuler2026PCB"
-				(path "/68c19e60-1b43-4cb0-aa9b-a3f022006b83/3e4c3afc-d3f5-4362-bada-3280071de354"
-					(reference "V1")
+					(reference "#GND02")
 					(unit 1)
 				)
 			)
@@ -1143,7 +1126,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 87.63 58.42 0)
+		(at 99.06 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1152,9 +1135,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "55d24c72-ce08-47f9-a084-50bd064f1f7e")
+		(uuid "36a35111-f31e-4a50-9f4c-49772e1a0472")
 		(property "Reference" "C1"
-			(at 90.17 57.1499 0)
+			(at 101.6 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1164,8 +1147,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
-			(at 90.17 59.6899 0)
+		(property "Value" "1uF"
+			(at 101.6 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1176,7 +1159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 58.42 0)
+			(at 99.06 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1187,7 +1170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 58.42 0)
+			(at 99.06 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1198,7 +1181,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 87.63 68.58 0)
+			(at 99.06 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1208,11 +1191,11 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "ae43283b-5faf-43f4-8e96-67ee6c5ac7e6")
-		)
 		(pin "2"
-			(uuid "47233c5f-2b81-4f78-91cc-359ff16b2843")
+			(uuid "a7a328d0-e33e-449e-9281-5cb916f30601")
+		)
+		(pin "1"
+			(uuid "f4c851dc-e31b-4a52-a337-2f5130703164")
 		)
 		(instances
 			(project "C3IRuler2026PCB"
@@ -1224,8 +1207,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 73.66 69.85 0)
+		(lib_id "Device:R_Small")
+		(at 110.49 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1233,9 +1216,91 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5d27b240-716b-4e7e-a8cf-a1580bfafb2f")
-		(property "Reference" "#GND01"
-			(at 73.66 74.93 0)
+		(fields_autoplaced yes)
+		(uuid "3f295819-3f7e-442d-a04a-871edfc41510")
+		(property "Reference" "R1"
+			(at 113.03 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 113.03 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 110.49 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "991065f6-3f19-4cdf-89df-fb317c6c34d1")
+		)
+		(pin "1"
+			(uuid "8cdd43bc-2db2-48ac-ab16-01a8b9c8896c")
+		)
+		(instances
+			(project "C3IRuler2026PCB"
+				(path "/68c19e60-1b43-4cb0-aa9b-a3f022006b83/3e4c3afc-d3f5-4362-bada-3280071de354"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 80.01 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52ff8843-9da6-46e2-8f26-f928b702a817")
+		(property "Reference" "#GND03"
+			(at 80.01 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1246,7 +1311,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 75.946 69.85 0)
+			(at 76.962 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1256,7 +1321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 69.85 0)
+			(at 80.01 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1267,7 +1332,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 73.66 80.01 0)
+			(at 80.01 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1278,7 +1343,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 73.66 77.47 0)
+			(at 80.01 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1289,7 +1354,161 @@
 			)
 		)
 		(pin "1"
-			(uuid "05476379-3a36-421b-9c38-13bb11163a49")
+			(uuid "74aa8925-db1d-4afc-bd31-81572473b04e")
+		)
+		(instances
+			(project "C3IRuler2026PCB"
+				(path "/68c19e60-1b43-4cb0-aa9b-a3f022006b83/3e4c3afc-d3f5-4362-bada-3280071de354"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 118.11 49.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f9aa296-eb9b-4568-ae48-412d879a3043")
+		(property "Reference" "#GND04"
+			(at 118.11 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 121.158 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 118.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 118.11 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f0bc5b2-3538-45c0-ba73-079cf596f5ec")
+		)
+		(instances
+			(project "C3IRuler2026PCB"
+				(path "/68c19e60-1b43-4cb0-aa9b-a3f022006b83/3e4c3afc-d3f5-4362-bada-3280071de354"
+					(reference "#GND04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 99.06 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "715ba9e2-e400-4d0a-9fd8-a9c0f4dd18b2")
+		(property "Reference" "#GND01"
+			(at 99.06 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 96.012 61.214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 99.06 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 99.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "806ac0de-f8dd-48b4-8bb0-452381b688c3")
 		)
 		(instances
 			(project "C3IRuler2026PCB"
@@ -1301,8 +1520,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 99.06 58.42 0)
+		(lib_id "Simulation_SPICE:OPAMP")
+		(at 120.65 57.15 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1310,10 +1530,74 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a3280ea-1b14-492e-8350-6972d7aad486")
-		(property "Reference" "L1"
-			(at 100.33 57.1499 0)
+		(uuid "8b184464-2c79-4d97-9f6e-d25073b4d44d")
+		(property "Reference" "U1"
+			(at 128.27 62.3002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "${SIM.PARAMS}"
+			(at 128.27 60.3951 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
+			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Operational amplifier, single"
+			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
+			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 120.65 57.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1323,8 +1607,77 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uH"
-			(at 100.33 59.6899 0)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp"
+			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "5f49cd71-077f-4b84-a19d-124a61dcc7b5")
+		)
+		(pin "5"
+			(uuid "dc907c01-5cbb-484f-bdbb-aaceffbbf95e")
+		)
+		(pin "3"
+			(uuid "011118fa-305b-4ae7-801e-7bc42a1c7afe")
+		)
+		(pin "2"
+			(uuid "b19e4abe-80a8-4092-b7a8-aba82726511c")
+		)
+		(pin "1"
+			(uuid "3d97e521-7c89-4965-b27b-1ac738176ea1")
+		)
+		(instances
+			(project "C3IRuler2026PCB"
+				(path "/68c19e60-1b43-4cb0-aa9b-a3f022006b83/3e4c3afc-d3f5-4362-bada-3280071de354"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VDC")
+		(at 80.01 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93265830-b8bc-4596-9666-576cd8479f65")
+		(property "Reference" "V1"
+			(at 83.82 55.7501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5"
+			(at 83.82 58.2901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1335,7 +1688,121 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 58.42 0)
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "bf32e636-a914-4632-bf33-6542872bf335")
+		)
+		(pin "2"
+			(uuid "3896e174-0d07-42d3-a3cf-555245852016")
+		)
+		(instances
+			(project "C3IRuler2026PCB"
+				(path "/68c19e60-1b43-4cb0-aa9b-a3f022006b83/3e4c3afc-d3f5-4362-bada-3280071de354"
+					(reference "V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 119.38 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb76cc1e-453d-486e-b5bf-5d7a09c9efb4")
+		(property "Reference" "R2"
+			(at 119.38 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10kR"
+			(at 119.38 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1346,7 +1813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 58.42 0)
+			(at 119.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1356,8 +1823,8 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
-			(at 99.06 58.42 0)
+		(property "Description" "Resistor, small symbol"
+			(at 119.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1368,15 +1835,95 @@
 			)
 		)
 		(pin "2"
-			(uuid "b44de483-2063-4543-96b3-b79eec83ef9c")
+			(uuid "de1ef30d-7226-4686-a811-60ca5115e033")
 		)
 		(pin "1"
-			(uuid "096e6813-31f5-4118-92e0-53dd9659c6c5")
+			(uuid "5234b61c-1234-487d-a625-9de2073946de")
 		)
 		(instances
 			(project "C3IRuler2026PCB"
 				(path "/68c19e60-1b43-4cb0-aa9b-a3f022006b83/3e4c3afc-d3f5-4362-bada-3280071de354"
-					(reference "L1")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 109.22 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f576600e-1a8f-4607-ab0a-ce48b42371e5")
+		(property "Reference" "R3"
+			(at 109.22 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1kR"
+			(at 109.22 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 109.22 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fb6923bc-84df-457f-81b3-280fe69383a4")
+		)
+		(pin "1"
+			(uuid "5031ea05-3c1f-4d31-8bb2-2c3c105d3145")
+		)
+		(instances
+			(project "C3IRuler2026PCB"
+				(path "/68c19e60-1b43-4cb0-aa9b-a3f022006b83/3e4c3afc-d3f5-4362-bada-3280071de354"
+					(reference "R3")
 					(unit 1)
 				)
 			)
