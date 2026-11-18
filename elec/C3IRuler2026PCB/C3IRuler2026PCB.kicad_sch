@@ -21,7 +21,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "414b513e-c483-4e31-b246-8fc5a96c627b")
-		(property "Sheetname" "Controle"
+		(property "Sheetname" "test"
 			(at 25.4 80.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67,7 +67,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8987f3c1-594a-4750-8add-4d4d4c1e4738")
-		(property "Sheetname" "Capteur"
+		(property "Sheetname" "ondeTriangle"
 			(at 25.4 142.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -113,7 +113,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "e6605872-c10c-4438-816e-d7deb465c560")
-		(property "Sheetname" "Alimentation"
+		(property "Sheetname" "SinusToCarreTomaybetriangle"
 			(at 25.4 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)

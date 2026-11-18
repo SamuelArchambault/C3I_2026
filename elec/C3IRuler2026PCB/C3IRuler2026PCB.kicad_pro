@@ -649,6 +649,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": "C3IRuler2026PCB.wbk"
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -661,7 +669,7 @@
         "uuid": "68c19e60-1b43-4cb0-aa9b-a3f022006b83"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW1,E1,U1-10,#PWR1-4,B1,R1-19,#GND1-11,#GND13-26,C1-9,V1-8,Q1,D1-2,I1,L1-2",
     "variants": []
   },
   "sheets": [
@@ -671,15 +679,15 @@
     ],
     [
       "e6605872-c10c-4438-816e-d7deb465c560",
-      "Alimentation"
+      "SinusToCarreTomaybetriangle"
     ],
     [
       "414b513e-c483-4e31-b246-8fc5a96c627b",
-      "Controle"
+      "test"
     ],
     [
       "8987f3c1-594a-4750-8add-4d4d4c1e4738",
-      "Capteur"
+      "ondeTriangle"
     ]
   ],
   "text_variables": {},
